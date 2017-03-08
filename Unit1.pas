@@ -41,7 +41,7 @@ begin
   oSmtp.LicenseCode := 'TryIt';
 
   // Set your sender email address
-  oSmtp.FromAddr := 'ales.cernivec@gmail.com';
+  oSmtp.FromAddr := 'some.email@gmail.com';
 
   // Add recipient email address
   oSmtp.AddRecipientEx( Edit2.Text, 0);
@@ -58,7 +58,7 @@ begin
 
   // User and password for ESMTP authentication, if your server doesn't require
   // user authentication, please remove the following codes
-  oSmtp.UserName := 'ales.cernivec@gmail.com';
+  oSmtp.UserName := 'some.email@gmail.com';
   oSmtp.Password := 'szeifyhlhstgifhh';
 
   // If your SMTP server requires SSL connection, please add this line

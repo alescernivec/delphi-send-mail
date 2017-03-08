@@ -51,7 +51,7 @@ object Form1: TForm1
     Width = 541
     Height = 21
     TabOrder = 3
-    Text = 'ales.cernivec@gmail.com'
+    Text = 'some.email@gmail.com'
   end
   object OpenDialog1: TOpenDialog
     Left = 568
